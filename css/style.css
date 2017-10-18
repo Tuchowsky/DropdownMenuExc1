@@ -69,7 +69,7 @@ body{
                 .sub-menu-items > i{
                     left: 20px;
                 }
-                
+
                 .i_home{
                     transform: scaleY(1.12);
                 }
@@ -102,6 +102,10 @@ body{
 
             .sub-menu-items:hover a{
                 margin-left: 50px;
+            }
+
+            .sub-menu-items:hover i{
+                left: 16px;
             }
 
         .sub-menu-triangle{
