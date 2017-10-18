@@ -7,4 +7,27 @@
 body{
     background-color: rgba(0, 0, 0, 0.9);
     font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    letter-spacing: 0.7px;
+}
+
+.main-container{
+    width: 300px;
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    transform: translateX(-50%);
+}
+
+.nav-menu{
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.9);
+    width: 100%;
+    height: 50px;
+    border-radius: 3px;
+    color: #7d7988;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
 }
