@@ -54,3 +54,22 @@ body{
                     padding-top: 3px; 
                     display: flex;
                 }
+
+            .sub-menu :nth-child(1){
+                    border-radius: 3px 3px 0 0;
+            }
+
+            .sub-menu :nth-child(3){
+                    border-radius: 0 0 3px 3px;
+                    height: 50px;
+                    border-bottom: none;
+            }
+                
+            .sub-menu-items:hover{
+                    background-color: rgba(255, 255, 255, 0.85);
+                    border-left: solid 4px #3ea6fd;
+            }
+
+            .sub-menu-items:hover a{
+                margin-left: 50px;
+            }
