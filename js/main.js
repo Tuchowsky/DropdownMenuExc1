@@ -7,6 +7,7 @@ $(document).ready(function(){
         $this.toggleClass('open');
         if($this.hasClass('open')){
             mainContainer.append(`
+                <div class="sub-menu-triangle"></div>
                 <div class="sub-menu">
                     <div class="sub-menu-items">
                         <a class="dropdown">Home</a>
