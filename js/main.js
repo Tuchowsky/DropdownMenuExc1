@@ -2,8 +2,12 @@ $(document).ready(function(){
     let mainContainer = $('.main-container');
     let navMenu = $('.nav-menu');
 
+
     navMenu.click(function(){
         let $this = $(this);
+        let subMenu = $('.sub-menu');
+        let subMenuTriangle = $('.sub-menu-triangle');
+
         $this.toggleClass('open');
         if($this.hasClass('open')){
             mainContainer.append(`
@@ -22,7 +26,8 @@ $(document).ready(function(){
             `);
         } else {
             $this.removeClass('open');
-            $('div.sub-menu').remove();
+            subMenu.remove();
+            subMenuTriangle.remove();
         }
     });
 });
