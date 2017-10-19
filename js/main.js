@@ -41,4 +41,15 @@ $(document).ready(function(){
             subMenuTriangle.remove();
         }
     });
+
+    $('body').click(function(event){
+        let x = event.clientX;
+        let y = event.clientY;
+        $('body').append('<div class="circle" style="left:' + x + 'px; top:' + y + 'px;"></div>');
+        
+        setTimeout(function(){
+            $('div.circle').remove();
+        },50);
+    });
+
 });
