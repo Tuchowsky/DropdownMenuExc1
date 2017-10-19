@@ -2,7 +2,7 @@ $(document).ready(function(){
     let mainContainer = $('.main-container');
     let navMenu = $('.nav-menu');
     let arrowDown = $('.i_arrow');
-
+    //Opening and closing menu
     navMenu.click(function(){
         let $this = $(this);
         let subMenu = $('.sub-menu');
@@ -41,7 +41,7 @@ $(document).ready(function(){
             subMenuTriangle.remove();
         }
     });
-
+    //Create ripple effect around curson on click
     $('body').click(function(event){
         let x = event.clientX;
         let y = event.clientY;
